@@ -7,19 +7,19 @@ Does feedforward and backpropagation to train a deep learning network.
 Base class of all layer objects. Each has a forward and backward method, plus a delta value to propagate the gradients.  
 Additionally, network layers (e.g. linear) has methods to grab the gradients of the weights and biases.  
 
-Network layers implemented:
+Network layers available:
 
 ```bash
 Linear()
 ```
-Activation layers implemented:
+Activation layers available:
 ```bash
 ReLu()
 ```		
 **Loss functions**  
-Loss functions are implemented similarly to layers class, except their forward method is replace with a loss calculation.
+Loss functions are implemented similarly to layers class, except their forward method is replaced with a loss calculation.
 
-Loss functions:
+Loss functions available:
 ```bash
 CrossEntropyWithSoftmax()
 MSE()
